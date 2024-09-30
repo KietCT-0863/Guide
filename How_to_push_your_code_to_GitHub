@@ -1,0 +1,14 @@
+1. Create file .gitignore ( mỗi repository chỉ cần làm 1 lần duy nhất )
+vào gitignore.io chọn công cụ lập trình => chọn create => copy all => paste tất cả vào file.txt => đặt tên là .gitignore lưu ở folder muốn push lên GitHub
+
+2. Tạo Repository trên GitHub
+
+3. Dùng lệnh cmd tại folder muốn push lên
+
+4. Trong Terminal gõ lệnh
+git init 
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin [ link GitHup của Repository dã tạo ]
+git push -u origin main
