@@ -4,9 +4,7 @@ vào gitignore.io chọn công cụ lập trình => chọn create => copy all =>
 
 2. Tạo Repository trên GitHub
 
-3. Dùng lệnh cmd tại folder muốn push lên
-
-4. Trong Terminal gõ lệnh
+3. mở Terminal tại folder muốn push lên, gõ các lệnh
 git init 
 git add *
 git commit -m "first commit"
