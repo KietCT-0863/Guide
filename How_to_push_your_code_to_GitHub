@@ -24,3 +24,7 @@ git pull origin main
 git add *
 3.2 thêm 1 file cụ thể nào đó
 git add tên_file
+
+4. Khi muốn sửa đổi 1 commit đã thêm trước đó
+4.1 Thay đổi commit vừa mới thêm vào
+git commit --am -m ""
