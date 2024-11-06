@@ -28,3 +28,7 @@ git add tên_file
 4. Khi muốn sửa đổi 1 commit đã thêm trước đó
 4.1 Thay đổi commit vừa mới thêm vào
 git commit --am -m ""
+
+5. Khi muốn xoá 1 commit vừa push lên, gõ lệmh
+git reset HEAD~1
+git push --force
