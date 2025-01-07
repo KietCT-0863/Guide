@@ -12,6 +12,12 @@ git branch -M main
 git remote add origin [ link GitHup của Repository dã tạo ]
 git push -u origin main
 
+4. Khi cần push code lên github sử dụng lệnh
+git pull origin main
+git add *
+git commit -m "..."        // điền commit muốn hiển thị vào phần ...
+git push -u origin main
+
   * Lưu ý *
 1. Khi update code sau này thì chỉ cần sử dụng duy nhất lệnh
 git push -u origin main
