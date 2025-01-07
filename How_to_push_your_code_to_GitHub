@@ -34,3 +34,6 @@ git commit --am -m ""
 5. Khi muốn xoá 1 commit vừa push lên, gõ lệmh
 git reset HEAD~1
 git push --force
+
+6. Lấy Repository từ GitHub về máy
+git clone [ link GitHup của Repository đã tạo ]
