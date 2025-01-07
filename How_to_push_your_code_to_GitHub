@@ -1,4 +1,4 @@
-  * Các bước push code lên GitHub *
+  * CÁC BƯỚC TẠO REPOSITORY VÀ PUSH CODE LÊN GITHUB *
 1. Create file .gitignore ( mỗi repository chỉ cần làm 1 lần duy nhất )
 vào gitignore.io chọn công cụ lập trình => chọn create => copy all => paste tất cả vào file.txt => đặt tên là .gitignore lưu ở folder muốn push lên GitHub
 
@@ -12,20 +12,16 @@ git branch -M main
 git remote add origin [ link GitHup của Repository dã tạo ]
 git push -u origin main
 
-4. Khi cần push code lên github sử dụng lệnh
-git pull origin main
+  * LƯU Ý *
+1. Khi update code sau này sử dụng các lệnh sau
 git add *
 git commit -m "..."        // điền commit muốn hiển thị vào phần ...
 git push -u origin main
 
-  * Lưu ý *
-1. Khi update code sau này thì chỉ cần sử dụng duy nhất lệnh
-git push -u origin main
-
-2. Khi làm việc chung với nhiều người trên cùng 1 repository, tốt nhất bạn nên pull các thay đổi từ GitHub (nếu có) trước khi push để tránh xung đột giữa code trên máy bạn và trên GitHub
+2. [ QUAN TRỌNG ] Khi làm việc chung với nhiều người trên cùng 1 repository, tốt nhất bạn nên pull các thay đổi từ GitHub (nếu có) trước khi push để tránh xung đột giữa code trên máy bạn và trên GitHub
 git pull origin main
 
-3. Khi muốn thêm hoặc thay đổi file ta có thể sử dụng lưu ý 1 hoặc 2 cách sau
+3. Khi muốn thêm hoặc thay đổi file ta có thể sử dụng 1 trong 2 cách sau
 3.1 thêm tất cả các file
 git add *
 3.2 thêm 1 file cụ thể nào đó
