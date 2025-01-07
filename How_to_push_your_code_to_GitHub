@@ -9,7 +9,7 @@ git init
 git add *
 git commit -m "first commit"
 git branch -M main
-git remote add origin [ link GitHup của Repository dã tạo ]
+git remote add origin [ link GitHup của Repository đã tạo ]
 git push -u origin main
 
   * LƯU Ý *
