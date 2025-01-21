@@ -16,7 +16,7 @@ git push -u origin main
 1. Khi update code sau này sử dụng các lệnh sau
 git add *
 git commit -m "..."        // điền commit muốn hiển thị vào phần ...
-git push -u origin main
+git push -u origin main / git push -u origin master        // tuỳ vào branch là gì
 
 2. [ QUAN TRỌNG ] Khi làm việc chung với nhiều người trên cùng 1 repository, tốt nhất bạn nên pull các thay đổi từ GitHub (nếu có) trước khi push để tránh xung đột giữa code trên máy bạn và trên GitHub
 git pull origin main
