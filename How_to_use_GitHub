@@ -6,17 +6,17 @@ vào gitignore.io chọn công cụ lập trình => chọn create => copy all =>
 
 3. mở Terminal tại folder muốn push lên, gõ các lệnh
 git init 
-git add *
+git add .          // . để quét qua tất cả các file có trong project có dấu . đứng đầu và đưa lên server
 git commit -m "first commit"
-git branch -M main
+git branch -M main          // đặt tên cho branch
 git remote add origin [ link GitHup của Repository đã tạo ]
-git push -u origin main
+git push -u origin main          // -u để đưa branch origin main thành upstream 
 
   * LƯU Ý *
 1. Khi update code sau này sử dụng các lệnh sau
 git add *
-git commit -m "..."        // điền commit muốn hiển thị vào phần ...
-git push -u origin main / git push -u origin master        // tuỳ vào branch là gì
+git commit -m "..."          // điền commit muốn hiển thị vào phần ...
+git push          // tuỳ vào branch là gì
 
 2. [ QUAN TRỌNG ] Khi làm việc chung với nhiều người trên cùng 1 repository, tốt nhất bạn nên pull các thay đổi từ GitHub (nếu có) trước khi push để tránh xung đột giữa code trên máy bạn và trên GitHub
 git pull origin main / git pull origin master        // tuỳ vào branch là gì
