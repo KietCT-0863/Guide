@@ -37,3 +37,6 @@ git push --force
 
 6. Lấy Repository từ GitHub về máy
 git clone [ link GitHup của Repository đã tạo ]
+
+7. Kiểm tra trạng thái của kho lưu trữ hiện tại
+git status
